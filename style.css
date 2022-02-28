@@ -45,11 +45,18 @@ section {
 /*code to change background color*/
 .active  a {
     color:#69b3a2;
-    border-bottom: 2px solid #69b3a2;
+    border-bottom: 3px solid #69b3a2;
 }
 
 .nav-item>a:hover {
-    
+    background-color: white;
     color:#69b3a2;
-    border-bottom: 2px solid #69b3a2;
+    border-bottom: 3px solid #69b3a2;
 }
+
+.nav-pills .nav-link.active {
+    background-color: white !important;
+    color:#69b3a2 !important;
+    border-bottom: 3px solid #69b3a2;
+}
+
