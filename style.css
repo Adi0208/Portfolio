@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+  
+}
+
+
+#particles-js
+{
+    height: 100%;
+    background: white;
+}
+
+
+.textlanding {
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    max-width: 600px;
+    padding: 2em 3em;
+}
+
+element.style {
+    height: 100%;
+}
+
+section {
+    padding: 100px 0;
+  
+ 
+}
+
+
+
+.nav-link {
+    color:black;
+}
+
+
+/*code to change background color*/
+.active  a {
+    color:#69b3a2;
+    border-bottom: 2px solid #69b3a2;
+}
+
+.nav-item>a:hover {
+    
+    color:#69b3a2;
+    border-bottom: 2px solid #69b3a2;
+}
