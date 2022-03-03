@@ -8,22 +8,25 @@
     <title>Aditya Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light fixed-top "
-        style="color: black;">
-       
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light fixed-top " style="color: black;">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-       
+        </button>
+
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
 
             <ul class="nav nav-pills me-2">
                 <li class="nav-item active">
-                  
+
                     <a class="nav-link" href="#">Home </a>
                 </li>
                 <li class="nav-item ">
@@ -47,34 +50,33 @@
     <div id="particles-js"><canvas class="particles-js-canvas-el" width="1898" height="5000"
             style="width: 100%; height: 100%;"></canvas></div>
     <div class="textlanding">
-        <p style="display: inline; font-size: 35px; padding-left: 30px">ADITYA</p>
-        <p style="display: inline; font-size: 35px">KUMAR GAUTAM</p>
-        <br />
-
-        <br />
+        <p style="font-family: 'Poppins', sans-serif; font-size: 2.5rem;color: rgb(4, 55, 56) ;">Aditya Kumar Gautam</p>
+   
 
         <p>
-        <p>Welcome </p>I'm a data analyst well versed in SQL, Python, Tableau, Power BI.
+        <p >Welcome </p>I'm a Data analyst well versed in SQL, Python, Tableau, Power BI.
 
 
 
         </p>
+         <a class=" btn btn-grad btn-xl text-uppercase js-scroll-trigger" href="#Contacts" style="width: 10rem;">
+            Contact</a>
 
-        <a class=" btn btn-outline-success btn-xl text-uppercase js-scroll-trigger" href="#Contacts">Contact</a>
     </div>
+
+
 
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
         tabindex="0">
 
-        <section id="About" style="height: 100% ;color: white; background-color: #69b3a2;">
+        <section id="About" style="height: 100% ;color: white;">
             <div class="container">
-                <h2  class="section-heading" style="text-align: center;">About me</h2>
+                <h2 class="section-heading" style="text-align: center;">About me</h2>
                 <hr class="light">
-                <div class="row" style="margin-top:50px;" >
+                <div class="row" style="margin-top:50px;">
                     <div class="col-lg-2"></div>
-                    <div class="col-lg-2 text-center" id="pic"> <img src="AdityaPic.png" class="img-fluid" alt=""
-                            ></div>
+                    <div class="col-lg-2 text-center" id="pic"> <img src="AdityaPic.png" class="img-fluid" alt=""></div>
 
 
 
@@ -85,11 +87,11 @@
 
                     <div class="col-lg-6  text-center">
 
-                        <p class="text-faded">Aditya is motivated by the belief that data can be used to make better
-                            decisions. He wants to be able to make it easier for people to understand code and use data
+                        <p>I am a Data Analyst well versed in SQL, Python, Tableau, Power BI.
+                             He wants to be able to make it easier for people to understand code and use data
                             efficiently. Aditya believes in open data and open source software. Aditya primarily uses
                             Python, but also has experience with R and Scala.</p>
-                        <p class="text-faded">Aditya has worked at leading cyber security companies like Palo Alto
+                        <p>Aditya has worked at leading cyber security companies like Palo Alto
                             Networks, Cloud Raxak and McAfee on network security, endpoint security and configuration
                             and compliance. Aditya graduated from the School of Information at UC Berkeley where he
                             explored various facets of data science, data visualization and user research.</p>
@@ -97,14 +99,14 @@
                 </div>
             </div>
         </section>
-        
+
 
         <section id="Projects">
 
-            <div class="container" >
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading" >Projects</h2>
+                        <h2 class="section-heading" style="color: #116466;">Projects</h2>
                         <hr class="primary">
                     </div>
                 </div>
@@ -113,7 +115,8 @@
             <div class="row " style="margin-top:50px;">
                 <div class="col-lg-1 "></div>
 
-                <div class="col col-lg-3  d-flex justify-content-center justify-content-md-start" style="margin-bottom: 20px;">
+                <div class="col col-lg-3  d-flex justify-content-center justify-content-md-start"
+                    style="margin-bottom: 20px;">
                     <div class="card" style="width: 18rem; align-items: center;">
                         <img class="card-img-top" src="https://alextheanalyst.github.io/images/covid.jpg"
                             alt="Card image cap">
@@ -122,28 +125,30 @@
                                 DATA EXPLORATION</h5>
                             <p class="card-text">In this project we use SQL Server to explore global COVID 19 data.</p>
                             <a href="https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20-%20Data%20Exploration.sql"
-                                class="btn btn-outline-success" target="_blank">View Project</a>
+                                class="btn btn-style " target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-1  "></div>
-                <div class="col col-lg-3 d-flex justify-content-center justify-content-md-start" style="margin-bottom: 20px;">
+                <div class="col col-lg-3 d-flex justify-content-center justify-content-md-start"
+                    style="margin-bottom: 20px;">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://alextheanalyst.github.io/images/tableau.jpg"
+                        <img class="card-img-top" src="salesTransaction.png"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">TABLEAU DASHBOARDS</h5>
-                            <p class="card-text">Tableau Dashboards for projects on COVID 19, Financial Forecasting, and
-                                Fantasy
-                                Football</p>
-                            <a href="https://public.tableau.com/app/profile/alexander.freberg#!/?newProfile=&activeTab=0"
-                                class="btn btn-outline-success" target="_blank">View Project</a>
+                            <p class="card-text">Tableau Dashboards for projects on Sales Transaction</p>
+                           <br>
+                           <br>
+                           
+                            <a href="https://public.tableau.com/app/profile/aditya.kumar.gautam/viz/Dashboard_Adi_Jan/Dashboard1?publish=yes"
+                                class="btn btn-style" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-1 "></div>
                 <div class="col  col-lg-3 d-flex justify-content-center justify-content-md-start"
-                style="margin-bottom: 20px;">
+                    style="margin-bottom: 20px;">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://alextheanalyst.github.io/images/movies.jpg"
                             alt="Card image cap">
@@ -154,7 +159,7 @@
                                 movies.
                             </p>
                             <a href="https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20-%20Data%20Exploration.sql"
-                                class="btn btn-outline-success" target="_blank">View Project</a>
+                                class="btn btn-style " target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -163,15 +168,15 @@
 
         </section>
 
-        <section style="color:white; background-color: #69b3a2;" id="Contacts">
+        <section style="color:white;" id="Contacts">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-lg-offset-2 text-center">
-                        <h2 class="section-heading" >Get In Touch!</h2>
+                        <h2 class="section-heading">Get In Touch!</h2>
                         <hr class="primary">
                     </div>
                 </div>
-                <div class="row"  style="margin-top:20px;" >
+                <div class="row" style="margin-top:20px;">
                     <div class="col-3"></div>
                     <div class="col-2 text-center">
 
@@ -197,14 +202,18 @@
         </section>
 
     </div>
-  
-  
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
     <script src="main.js" type="text/javascript"></script>
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
